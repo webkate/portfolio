@@ -1,0 +1,53 @@
+.Block1 {
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__head {
+        margin-top: 198px;
+    }
+    &__subhead {
+        margin-top: 29px;
+    }
+    &__contacts {
+        margin-top: 68px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__about {
+        margin-top: 124px;
+    }
+    &__wrapper {
+
+    }
+    &__box1, &__box2 {
+        position: absolute;
+        border: dashed 1px #4f4f4f;
+        width: 80px;
+        height: 80px;
+    }
+    &__box1 {
+        top: 180px;
+        left: 40%;
+    }
+    &__box2 {
+        top: 200px;
+        right: 45%;
+    }
+    &__box3 {
+        position: absolute;
+        top: 150px;
+        left: 20%;
+    }
+}
+
+.contacts_1,
+.contacts_2,
+.contacts_3 {
+    width: 180px;
+    margin-right: 46px;
+    padding: 20px;
+}
+
